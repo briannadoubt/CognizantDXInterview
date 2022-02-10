@@ -13,6 +13,8 @@
 		03D1163C27B58D5D00B55F17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1162A27B58D5B00B55F17 /* ContentView.swift */; };
 		03D1163D27B58D5D00B55F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D1162B27B58D5D00B55F17 /* Assets.xcassets */; };
 		03D1163E27B58D5D00B55F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D1162B27B58D5D00B55F17 /* Assets.xcassets */; };
+		03D1164827B58E9100B55F17 /* WebServiceActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1164727B58E9100B55F17 /* WebServiceActor.swift */; };
+		03D1164927B58E9100B55F17 /* WebServiceActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1164727B58E9100B55F17 /* WebServiceActor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		03D1163027B58D5D00B55F17 /* BriannaAndCognizantDX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BriannaAndCognizantDX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D1163627B58D5D00B55F17 /* BriannaAndCognizantDX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BriannaAndCognizantDX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D1163827B58D5D00B55F17 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		03D1164727B58E9100B55F17 /* WebServiceActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceActor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			children = (
 				03D1162927B58D5B00B55F17 /* BriannaAndCognizantDXApp.swift */,
 				03D1162A27B58D5B00B55F17 /* ContentView.swift */,
+				03D1164727B58E9100B55F17 /* WebServiceActor.swift */,
 				03D1162B27B58D5D00B55F17 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -177,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03D1163B27B58D5D00B55F17 /* ContentView.swift in Sources */,
+				03D1164827B58E9100B55F17 /* WebServiceActor.swift in Sources */,
 				03D1163927B58D5D00B55F17 /* BriannaAndCognizantDXApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03D1163C27B58D5D00B55F17 /* ContentView.swift in Sources */,
+				03D1164927B58E9100B55F17 /* WebServiceActor.swift in Sources */,
 				03D1163A27B58D5D00B55F17 /* BriannaAndCognizantDXApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
